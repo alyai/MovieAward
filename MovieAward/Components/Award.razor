@@ -1,0 +1,27 @@
+@using Microsoft.EntityFrameworkCore;
+@using MovieAward.Models;
+@using MovieAward.Data
+@using MovieAward.OMDB
+@inject OMDBSaved service
+
+<i class=" fas fa-award @(Movie.Saved ? "saved" : "")" title="@(Movie.Saved ? "Unsave" : "Save")" @onclick="OnClick"></i>
+
+@code{
+
+    [Parameter]
+    public MovieModel Movie { get; set; }
+
+    private async Task OnClick()
+    {
+        List<MovieModel> movies = await service.Get();
+
+        if(movies.Any(m => m.ImdbId == Movie.ImdbId)){
+            Movie.Saved = false;
+            await service.Delete(Movie.ImdbId);
+        } else
+        {
+            Movie.Saved = true;
+            await service.Add(Movie);
+        }
+    }
+}

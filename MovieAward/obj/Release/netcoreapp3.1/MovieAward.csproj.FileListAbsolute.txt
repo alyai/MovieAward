@@ -1,0 +1,8 @@
+/Users/omega/Projects/MovieAward/MovieAward/obj/Release/netcoreapp3.1/MovieAward.AssemblyInfoInputs.cache
+/Users/omega/Projects/MovieAward/MovieAward/obj/Release/netcoreapp3.1/MovieAward.AssemblyInfo.cs
+/Users/omega/Projects/MovieAward/MovieAward/obj/Release/netcoreapp3.1/MovieAward.csproj.CoreCompileInputs.cache
+/Users/omega/Projects/MovieAward/MovieAward/obj/Release/netcoreapp3.1/MovieAward.MvcApplicationPartsAssemblyInfo.cs
+/Users/omega/Projects/MovieAward/MovieAward/obj/Release/netcoreapp3.1/MovieAward.MvcApplicationPartsAssemblyInfo.cache
+/Users/omega/Projects/MovieAward/MovieAward/obj/Release/netcoreapp3.1/MovieAward.RazorComponent.input.cache
+/Users/omega/Projects/MovieAward/MovieAward/obj/Release/netcoreapp3.1/RazorDeclaration/Components/MovieCard.razor.g.cs
+/Users/omega/Projects/MovieAward/MovieAward/obj/Release/netcoreapp3.1/RazorDeclaration/Components/Star.razor.g.cs

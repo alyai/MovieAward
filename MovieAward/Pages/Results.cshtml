@@ -1,0 +1,35 @@
+@page
+@using MovieAward.Models
+@using MovieAward.Components
+@model MovieAward.Pages.ResultsModel
+@{
+    ViewData["Title"] = "Movies Found";
+}
+
+
+    <div id="results" class="col">
+        <div class="row d-flex justify-content-center">
+            <h1>@ViewData["Title"]</h1>
+        </div>
+        <div class="row d-flex justify-content-center">
+            @if (Model.Movies == null || Model.Movies.Count == 0)
+            {
+                <p>No movies found. Search again<a href="/Nominated">Nominated</a> movies.</p>
+            }
+            else
+            {
+                @foreach (MovieModel movie in Model.Movies)
+                {
+                    <component type="typeof(MovieCard)"
+                               render-mode="ServerPrerendered"
+                               param-Id="@movie.ImdbId"
+                               param-Title="@movie.Title"
+                               param-Year="@movie.Year"
+                               param-Poster="@movie.Poster"
+                               param-Saved="@movie.Saved" />
+                }
+            }
+        </div>
+    </div>
+
+

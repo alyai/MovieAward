@@ -1,0 +1,35 @@
+<a class="card" href="/Detail?id=@Id">
+        <div class="card" style="width: 10rem;">
+                <h5>
+                    @Title
+                    @if (Saved)
+                    {
+                        <i class="fas fa-award saved" title="@(Saved ? "Unsave" : "Save")"></i>
+                    }
+                </h5>
+                <p>@Year</p>
+                <div class="row h-200">
+                    <div class="col d-flex align-items-center">
+                        <img class="card-img-top" src="@Poster" height="200" width="100" />
+                    </div>
+                </div>
+            </div>
+
+</a>
+
+@code{
+    [Parameter]
+    public string Id { get; set; }
+
+    [Parameter]
+    public string Title { get; set; }
+
+    [Parameter]
+    public string Year { get; set; }
+
+    [Parameter]
+    public string Poster { get; set; }
+
+    [Parameter]
+    public bool Saved { get; set; }
+}
