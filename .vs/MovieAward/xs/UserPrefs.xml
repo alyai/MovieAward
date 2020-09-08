@@ -15,11 +15,9 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieAward" expanded="True">
-            <Node name="MovieAward" expanded="True">
+            <Node name="MovieAward" expanded="True" selected="True">
               <Node name="Components" expanded="True" />
-              <Node name="Data" expanded="True">
-                <Node name="ApplicationDbContext.cs" selected="True" />
-              </Node>
+              <Node name="Data" expanded="True" />
               <Node name="wwwroot" expanded="True">
                 <Node name="css" expanded="True" />
               </Node>
