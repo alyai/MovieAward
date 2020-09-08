@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{66C8006F-3327-4671-A878-40BEC29C9D1B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieAward/_Imports.razor">
+    <Files>
+      <File FileName="MovieAward/wwwroot/css/site.css" Line="51" Column="1" />
+      <File FileName="MovieAward/Pages/Detail.cshtml.cs" Line="1" Column="1" />
+      <File FileName="MovieAward/Pages/Detail.cshtml" Line="14" Column="39" />
+      <File FileName="MovieAward/Pages/Shared/_Layout.cshtml" Line="56" Column="35" />
+      <File FileName="MovieAward/Startup.cs" Line="39" Column="35" />
+      <File FileName="MovieAward/_Imports.razor" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MovieAward" expanded="True">
+            <Node name="MovieAward" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="Detail.cshtml" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+                <Node name="lib" expanded="True">
+                  <Node name="bootstrap" expanded="True">
+                    <Node name="dist" expanded="True" selected="True">
+                      <Node name="css" expanded="True" />
+                      <Node name="js" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MovieAward PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

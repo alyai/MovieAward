@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/omega/Projects/MovieAward/MovieAward/MovieAward.csproj": {}
+    "/Users/omega/Documents/GitHub/MovieAward/MovieAward/MovieAward.csproj": {}
   },
   "projects": {
-    "/Users/omega/Projects/MovieAward/MovieAward/MovieAward.csproj": {
+    "/Users/omega/Documents/GitHub/MovieAward/MovieAward/MovieAward.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/omega/Projects/MovieAward/MovieAward/MovieAward.csproj",
+        "projectUniqueName": "/Users/omega/Documents/GitHub/MovieAward/MovieAward/MovieAward.csproj",
         "projectName": "MovieAward",
-        "projectPath": "/Users/omega/Projects/MovieAward/MovieAward/MovieAward.csproj",
+        "projectPath": "/Users/omega/Documents/GitHub/MovieAward/MovieAward/MovieAward.csproj",
         "packagesPath": "/Users/omega/.nuget/packages/",
-        "outputPath": "/Users/omega/Projects/MovieAward/MovieAward/obj/",
+        "outputPath": "/Users/omega/Documents/GitHub/MovieAward/MovieAward/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

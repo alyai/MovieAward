@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l+00wVXQNAlZSVxdPJWYCkrED4ex0W7XNK1+WhF4lJYiVc33iWpbLWwmR3fPJb2obgCVZgzFCBFqmbebArYVew==",
+  "dgSpecHash": "wj1UykNyVRr8WkQT1ppcBVx3P3gOgya29T/mGhRkhp9fGjF4qzBP+azm3lQJyM2KvTmpbwgLVVP3AOR676aEFQ==",
   "success": true,
-  "projectFilePath": "/Users/omega/Projects/MovieAward/MovieAward/MovieAward.csproj",
+  "projectFilePath": "/Users/omega/Documents/GitHub/MovieAward/MovieAward/MovieAward.csproj",
   "expectedPackageFiles": [
     "/Users/omega/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.7/microsoft.aspnetcore.cryptography.internal.3.1.7.nupkg.sha512",
     "/Users/omega/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.7/microsoft.aspnetcore.cryptography.keyderivation.3.1.7.nupkg.sha512",
