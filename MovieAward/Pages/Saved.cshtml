@@ -3,7 +3,7 @@
 @using MovieAward.Components
 @model MovieAward.Pages.SavedModel
 @{
-    ViewData["Title"] = "Saved";
+    ViewData["Title"] = "Nominated Movies";
 }
 
 <div id="results" class="col">
@@ -13,8 +13,9 @@
     <div class="row d-flex justify-content-center">
         @if(Model.Movies == null || Model.Movies.Count == 0)
         {
-            <p>No nominated movies found!</p><br/>
-            <p>To nominate a movie, search a title and give it an award.</p>
+            <p>No nominated movies found! </p><br>
+        
+            <p> To nominate a movie, search a title and give it an award.</p>
         } else {
             @foreach(MovieModel movie in Model.Movies)
             {
