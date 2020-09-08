@@ -248,3 +248,6 @@
 /Users/omega/Documents/GitHub/MovieAward/MovieAward/obj/Debug/netcoreapp3.1/MovieAward.dll
 /Users/omega/Documents/GitHub/MovieAward/MovieAward/obj/Debug/netcoreapp3.1/MovieAward.pdb
 /Users/omega/Documents/GitHub/MovieAward/MovieAward/obj/Debug/netcoreapp3.1/MovieAward.genruntimeconfig.cache
+/Users/omega/Documents/GitHub/MovieAward/MovieAward/obj/Debug/netcoreapp3.1/Razor/Areas/Identity/Pages/_ViewStart 2.cshtml.g.cs
+/Users/omega/Documents/GitHub/MovieAward/MovieAward/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_Layout 2.cshtml.g.cs
+/Users/omega/Documents/GitHub/MovieAward/MovieAward/obj/Debug/netcoreapp3.1/Razor/Pages/Shared/_ValidationScriptsPartial 2.cshtml.g.cs
